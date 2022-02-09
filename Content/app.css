@@ -10,10 +10,10 @@ a:link, a:visited{
      color: #2d6f81;
 }
 a:hover, a:active{
-     color: #3da9b2;
+     color: #3da9b2 !important;
 }
 .navbar{
-     background-color: #5982bb;
+     background-color: #5982bb !important;
 }
 
 .navbar-brand{
@@ -34,7 +34,7 @@ a:hover, a:active{
      position: absolute;
      z-index: 999;
      text-align: right;
-     font-size:;
+     font-size:1.5em;
 }
 .tea-text{
      color: #5982bb;
@@ -45,5 +45,8 @@ a:hover, a:active{
      position: absolute;
      z-index: 777;
      text-align: left;
-     font-size: 4em;
+     font-size: 3em;
+}
+button{
+     background-color: #3da9b2;
 }
