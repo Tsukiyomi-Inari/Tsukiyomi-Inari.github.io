@@ -1,4 +1,7 @@
 // IIFE -- Immediately Invoked Function Expression
+
+const { css } = require("jquery");
+
 // AKA -- Anonymous Self-Executing Function
 (function()
 {
@@ -9,6 +12,7 @@
         AboutUsButton.addEventListener("click", function()
         {
             location.href = "about.html";
+            body.css("background-image", "url('../images/pixel_overlay2.svg')")
         });
 
         // Step 1. get an entry point(s) (insertion point / deletion point) reference 
