@@ -28,9 +28,15 @@ a:hover, a:active{
 /* Custom style changes to NAVBAR*/
 .navbar{
      background-color: #5982bb !important;
+     margin-bottom: 1em;
+     font-size: 1em;
+}
+.navbar.fa-keyboard{
+     align-self: center;
 }
 .navbar-brand{
      color: #b93a97 !important;
+     font-size: .75em;
 }
 
 /* Div Classes (content)*/
@@ -52,14 +58,13 @@ a:hover, a:active{
 }
 /* DIVs for Stacking Elements*/
 .text-hero{
-     /* color: #ffb6c1; */
      color: #b93a97;
      top: 40%; /* adjust to move the div up and down*/
      width: 70%; /* width of positioned div*/
      position: absolute;
      z-index: 999;
      text-align: right;
-     font-size:1.5em;
+     font-size:1.5em relative;
 }
 .tea-text{
      text-shadow:  0.08em  0.08em #9999cc;
@@ -71,10 +76,11 @@ a:hover, a:active{
      position: absolute;
      z-index: 777;
      text-align: left;
-     font-size: 2.5em;
+     font-size: 2.5em relative;
 }
 button{
      background-color: #3da9b2;
+     border: #2d6f81;
 }
 
 
