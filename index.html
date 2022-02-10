@@ -8,31 +8,32 @@
     <!-- CSS Section -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="./Content/app.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Content/app.css">
 </head>
 <body>
+  <div class="wrapper">
 <!--Body Container Start-->
 <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand " href="./index.html"><i class="fa-solid fa-keyboard"></i> Pixel Creative Solutions</a>
+    <a class="navbar-brand " href="index.html"><i class="fas fa-keyboard"></i> Pixel Creative Solutions</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html"> Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./products.html"> Projects</a>
+          <a class="nav-link" href="products.html"> Projects</a>
         </li>    
         <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>        
         <li class="nav-item">
-          <a class="nav-link" href="./contact.html"> Contact</a>
+          <a class="nav-link" href="contact.html"> Contact</a>
         </li>
       </ul>
     </div>
@@ -40,7 +41,8 @@
 </nav>
   </header>
 <main class="container">
-    
+    <br/>
+      <br/>
     <div class="hero">
       <img class="frame img-fluid" src="./images/hero-frame.png" alt="into image">
       <div class="text-hero">place holder</div>
@@ -48,18 +50,19 @@
       </div>
       <br/>
       <br/>
-      <button id="AboutButton">Learn more</button>
+      <button id="AboutButton" class="btn btn-light shadow">Learn more</button>
     
+      <!--Footer start->
+      <footer >
+      
+      </footer>
+      <!--Footer END-->
     </main>
 <!--Body Container End-->
-<!--Footer start-->
-<footer>
-
-</footer>
-<!--Footer END-->
        <!--SCRIPTING SECTION-->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./Scripts/app.js"></script>
+  </div>
 </body>
 </html>
