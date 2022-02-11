@@ -11,18 +11,19 @@ const { css } = require("jquery");
         let AboutUsButton = document.getElementById("AboutUsButton");
         AboutUsButton.addEventListener("click", function()
         {
-            location.href = "about.html";
-            body.css("background-image", "url('../images/pixel_overlay2.svg')")
+            body.setAttribute("background-image", "url('../images/pixel_overlay2.svg')")
         });
 
         // Step 1. get an entry point(s) (insertion point / deletion point) reference 
         let DocumentBody = document.body;
         let MainContent = document.getElementsByTagName("main")[0];
+        //let heroDiv = document.getElementsByClassName("hero");
 
         // Step 2. create an element(s) to insert
         let MainParagraph = document.createElement("p");
         let Article = document.createElement("article");
         let ArticleParagraph = '<p id="ArticleParagraph" class ="mt-3">This is the Article Paragraph</p>'
+        //let cssBrowserDrawn = "../browserCSSDrawn.html";
 
         // Step 3. configure the new element
         MainParagraph.setAttribute("id", "MainParagraph");
@@ -31,6 +32,7 @@ const { css } = require("jquery");
         Article.setAttribute("class", "container");
 
         // Step 4. Add / Insert the new element
+        //MainContent.appendChild($(heroDiv).load(cssBrowserDrawn));
         MainContent.appendChild(MainParagraph);
         Article.innerHTML = ArticleParagraph;
         DocumentBody.appendChild(Article);
