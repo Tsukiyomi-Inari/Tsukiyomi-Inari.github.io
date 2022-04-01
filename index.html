@@ -4,67 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- CSS Section -->
-    <link rel="shortcut icon" href="./images/keyboard_icon.svg" type="image/svg">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Content/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200;500;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="icon" href="images/dev-keeb-icon.ico" >
+    <link rel="stylesheet" href="style.css">
+    <title>Katherine Bellman - Developer</title>
 </head>
 <body>
-  <!--Body Container Start-->
-  <div class="wrapper">
-<header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand " href="index.html"><i class="fas fa-keyboard"></i> Pixel Creative Solutions</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html"> Projects</a>
-        </li>    
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>        
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html"> Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  </header>
-<main class="container">
-    <br/>
-      <br/>
-   <!--  <div class="hero">
-      <img class="frame" src="./images/hero-frame.png" alt="into image">
-      <div class="text-hero">place holder</div>
-        <div class="tea-text">T <br/> E<br/>A</div>
+    <div class="hero">
+        <nav id="nav" >
+            <a href="index.html"> <img src="images/dev-keeb.svg" id="logo"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="images">
+            <img src="images/technologies_window.svg" class="shape">
+            <img src="images/Katherine_Bellman.png" class="girl">
+        </div>
+        <div class="kat">
+            <h1>I am <br/><span>Katherine Bellman</span></h1>
+            <p> I use <span>creative solutions</span> to solve<span> <br/>computational problems.</span>  <a href="#" id="cv">Download my CV</a></p>
+        </div>
         
-      </div>
-      <br/>
-      <br/>
-      <button id="AboutButton" class="rounded shadow">Learn more</button> -->
-    
-      <!--Footer start
-      <footer >
-      
-      </footer>
-      Footer END-->
-    </main>
-<!--Body Container End-->
-       <!--SCRIPTING SECTION-->
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./Scripts/app.js"></script>
-  </div>
+<div class="skills">
+
+</div>
+
+        <footer id="footer">
+            <p class="year">Copyright &copy;<script>new Date().getFullYear()>document.write(new Date().getFullYear());</script> Katherine Bellman</p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
